@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin:0;
+  text-decoration:none;
+  list-style:none;
+  box-sizing:border-box; /* iInclui preenchimento e borda na largura e altura total do elemento */
+  font-family: 'Oswald', sans-serif;
+}
+
+body{
+  background-image: url(https://i.imgur.com/QSIH1EY.jpg);
+  background-repeat: round;
+  width: 100%;
+}
+
+.text-decorator-none {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav{
+  background: transparent;
+  display: inline-flex;
+  padding: 0 0 0 80px;
+}
+
+nav h1{
+  color: #fff;
+  text-align: center;
+  font-family: cursive;
+}
+
+nav ul{
+  white-space: nowrap;
+  padding: 10px 150px 0 140px;
+}
+
+nav ul li{
+  display: inline-flex;
+  padding: 0px 0 0 20px;
+}
+
+nav ul li a{
+  padding: 9px;
+  color: #fff;
+  font-family: cursive;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.active{
+  color: #fff;
+  border: solid 5px #490a99;
+  border-radius: 14px;
+}
+
+nav img{
+  width: 2rem;
+  margin: 5px;
+  padding-top: 1rem;
+  
+}
